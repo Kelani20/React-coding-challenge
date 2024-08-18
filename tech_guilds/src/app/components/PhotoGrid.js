@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchPhotos } from '../lib/unsplash';
 
 const PhotoGrid = () => {
-  const [photos, setPhotos] = useState([]); //store list of photos
+  const [photos, setPhotos] = useState([]); // store list of photos
   const [page, setPage] = useState(1); //keep track of current page for api
 
   //using a function to handle infinite scrolling behavour (test)
