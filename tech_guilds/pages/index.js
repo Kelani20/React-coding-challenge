@@ -1,5 +1,5 @@
 import React from 'react';
-import PhotoGrid from '../../src/app/components/PhotoGrid';
+import PhotoGrid from '../src/app/components/PhotoGrid';
 
 const HomePage = () => {
   console.log("Index.js is loaded"); // a basic log to ensure the file is being executed
