@@ -1,7 +1,7 @@
 //function to fetch photos from unsplash API
 export const fetchPhotos = async (page = 1, perPage = 10) => {
     const accessKey = process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY;  // limit scope by adding this line into function, retrieving from the env file
-    const url = `https://api.unsplash.com/photos?client_id=${accessKey}&page=${page}&per_page=${perPage}`; //api endpoint url
+    const url = `https://api.unsplash.com/photos?client_id=${accessKey}&page=${page}&per_page=${perPage}`; //api endpoint url, the GET /photos endpoint
   
     try {
         //fetch operation to unsplash API and check if fetch was successful or throw error 
